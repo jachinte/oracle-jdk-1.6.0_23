@@ -21,5 +21,6 @@ docker run --rm -ti jachinte/oracle-jdk-1.6.0_23 java -version
 ```bash
 git clone https://github.com/jachinte/oracle-jdk-1.6.0_23
 cd oracle-jdk-1.6.0_23
-docker build -t jachinte/oracle-jdk-1.6.0_23 .
+docker build -t jachinte/oracle-jdk-1.6.0_23:tag .
+# docker push jachinte/oracle-jdk-1.6.0_23:tag
 ```
